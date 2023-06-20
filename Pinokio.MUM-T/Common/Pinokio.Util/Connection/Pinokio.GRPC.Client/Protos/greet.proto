@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+option csharp_namespace = "Pinokio.GRPC.Client";
+
+package greet;
+
+// The greeting service definition.
+service Greeter {
+  // Sends a greeting
+  rpc GetAGVStatuses (Request) returns (Reply);
+}
+
+// The request message containing the user's name.
+message Request {
+  string AGVid = 1;
+  string CurrentNode = 2;
+  string D51 = 3;
+  string D52 = 4;
+  string D53 = 5;
+  string D55 = 6;
+  string Speed = 7;
+}
+
+// The response message containing the greetings.
+message Reply {
+  string D5 = 1;
+  string D100 = 2;
+  string D101 = 3;
+  string D102 = 4;
+  string JobId = 5;
+  string Destination = 6;
+}
