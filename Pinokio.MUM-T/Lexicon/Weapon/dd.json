@@ -1,5 +1,52 @@
 {
+  "task": {
+    "SCHEME": {
+      "mission": "uint",
+      "duedate": "float",
+      "priority": "uint",
+      "treat": "uint",
+      "location": "dict<str, Tuple<float, float, float>"
+    }
+  },
+  "unit": {
+    "SCHEME": {
+      "name": "string",
+      "description": "string",
+      "kind": "uint",
+      "distance": "float",
+      "speed": "float",
+      "fuel": "float",
+      "fuel_speed": "float"
+    },
+    "KF-21": {
+      "name": "KF-21",
+      "description": "전투기 acc(lbf) spd(km/h) fuel(kg)",
+      "kind": 4,
+      "distance": 2900,
+      "speed": 2234.9,
+      "acceleration": 14400,
+      "fuel": 5500,
+      "fuel_speed": 0
+    },
+    "MQ-9": {
+      "name": "Reaper",
+      "description": "MQ-9 Reaper spd(km/h) fuel(kg) 작전고도",
+      "kind": 4,
+      "distance": 5926,
+      "speed": 313,
+      "acceleration": 0,
+      "fuel": 1800,
+      "fuel_speed": "float"
+    }
+  },
   "weapon": {
+    "SCHEME": {
+      "name": "string",
+      "description": "string",
+      "target": "uint",
+      "weight": "float",
+      "distance": "float"
+    },
     "AIM-120-short": {
       "name": "AIM-120A/B",
       "description": "미사일",
@@ -29,11 +76,18 @@
       "distance": 19.0
     },
     "GBU-54": {
-      "name": "AIM-120D",
+      "name": "GBU-54",
       "description": "LJDAM",
       "target": 3,
       "weight": 950.0,
       "distance": 28.0
+    },
+    "AGM-114": {
+      "name": "AGM-114",
+      "description": "HEAT, MAC, BF",
+      "target": 7,
+      "weight": 57.0,
+      "distance": 10.0
     }
   }
 }
