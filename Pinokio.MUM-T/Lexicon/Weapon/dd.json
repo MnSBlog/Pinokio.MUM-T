@@ -1,0 +1,39 @@
+{
+  "weapon": {
+    "AIM-120-short": {
+      "name": "AIM-120A/B",
+      "description": "미사일",
+      "target": 4,
+      "weight": 157.8,
+      "distance": 50.0
+    },
+    "AIM-120-middle": {
+      "name": "AIM-120C",
+      "description": "미사일",
+      "target": 4,
+      "weight": 161.5,
+      "distance": 110.0
+    },
+    "AIM-120-long": {
+      "name": "AIM-120D",
+      "description": "미사일",
+      "target": 4,
+      "weight": 162.4,
+      "distance": 160.0
+    },
+    "GBU-24": {
+      "name": "GBU-24",
+      "description": "LGB",
+      "target": 3,
+      "weight": 1050.0,
+      "distance": 19.0
+    },
+    "GBU-54": {
+      "name": "AIM-120D",
+      "description": "LJDAM",
+      "target": 3,
+      "weight": 950.0,
+      "distance": 28.0
+    }
+  }
+}
