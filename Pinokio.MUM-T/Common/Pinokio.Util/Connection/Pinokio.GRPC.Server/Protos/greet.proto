@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+option csharp_namespace = "Pinokio.GRPC.Server";
+
+package greet;
+
+// The greeting service definition.
