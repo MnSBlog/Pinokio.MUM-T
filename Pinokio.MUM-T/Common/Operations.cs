@@ -46,7 +46,8 @@ namespace Pinokio.MUM_T.Common
 
     internal class Location
     {
-        public float latitude; // 위도
-        public float longitude; // 경도
+        public float Latitude; // 위도
+        public float Longitude; // 경도
+        public float Altitude; //고도
     }
 }
