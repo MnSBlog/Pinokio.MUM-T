@@ -40,11 +40,7 @@ namespace Pinokio.MUM_T.Common
 
     internal class Unit
     {
-<<<<<<< HEAD
         public int Id = -1;
-=======
-        public int Id = 0; // 종류
->>>>>>> d1b5b562fa82ff76ca6032b8ecb06b8e7ccc39ad
         public int Kind = 0;    // 대상: 001(지상) 010(해상) 100(공중)
         public List<Weapon> Weapons = new();    // 무장
         public float? Distance;  // 전투행동반경
@@ -58,15 +54,9 @@ namespace Pinokio.MUM_T.Common
 
     internal class Weapon
     {
-<<<<<<< HEAD
-        public int Id = -1;
-        public string? Name;
-        public string? Description;
-=======
-        public int Id; // 종류
+        public int Id = -1; // 종류
         public string? Name; // 이름
         public string? Description; // 설명
->>>>>>> d1b5b562fa82ff76ca6032b8ecb06b8e7ccc39ad
         public int? Target; // 공격가능한 대상 (2진): 001(지상) 010(해상) 100(공중) 101(지상+공중) 111(지상+해상+공중)
         public float? Weight;   // 물리 계산용
         public float? Distance; // 유효 범위
