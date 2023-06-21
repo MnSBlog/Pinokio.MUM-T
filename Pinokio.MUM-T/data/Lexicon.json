@@ -6,6 +6,48 @@
       "priority": "uint",
       "treat": "uint",
       "location": "dict<str, Tuple<float, float, float>"
+    },
+    "suppression": {
+      "mission": "uint",
+      "duedate": "float",
+      "priority": "uint",
+      "treat": "uint",
+      "location": "dict<str, Tuple<float, float, float>"
+    },
+    "defense": {
+      "mission": "uint",
+      "duedate": "float",
+      "priority": "uint",
+      "treat": "uint",
+      "location": "dict<str, Tuple<float, float, float>"
+    },
+    "protection": {
+      "mission": "uint",
+      "duedate": "float",
+      "priority": "uint",
+      "treat": "uint",
+      "location": "dict<str, Tuple<float, float, float>"
+    },
+    "annihilation": {
+      "mission": "uint",
+      "duedate": "float",
+      "priority": "uint",
+      "treat": "uint",
+      "location": "dict<str, Tuple<float, float, float>"
+    },
+    "strike": {
+      "mission": "uint",
+      "duedate": "float",
+      "priority": "uint",
+      "treat": "uint",
+      "location": "dict<str, Tuple<float, float, float>"
+    },
+    "reconnaissance": {
+      "mission": "uint",
+      "duedate": "float",
+      "priority": "uint",
+      "treat": "uint",
+      "location": "dict<str, Tuple<float, float, float>"
     }
   },
   "unit": {
