@@ -8,42 +8,49 @@
       "location": "dict<str, Tuple<float, float, float>"
     },
     "suppression": {
-      "mission": "uint",
+      "mission": 32,
       "duedate": "float",
       "priority": "uint",
       "treat": "uint",
       "location": "dict<str, Tuple<float, float, float>"
     },
     "defense": {
-      "mission": "uint",
+      "mission": 16,
       "duedate": "float",
       "priority": "uint",
       "treat": "uint",
       "location": "dict<str, Tuple<float, float, float>"
     },
     "protection": {
-      "mission": "uint",
+      "mission": 8,
       "duedate": "float",
       "priority": "uint",
       "treat": "uint",
       "location": "dict<str, Tuple<float, float, float>"
     },
     "annihilation": {
-      "mission": "uint",
+      "mission": 4,
       "duedate": "float",
       "priority": "uint",
       "treat": "uint",
       "location": "dict<str, Tuple<float, float, float>"
     },
     "strike": {
-      "mission": "uint",
+      "mission": 2,
       "duedate": "float",
       "priority": "uint",
       "treat": "uint",
       "location": "dict<str, Tuple<float, float, float>"
     },
     "reconnaissance": {
-      "mission": "uint",
+      "mission": 1,
+      "duedate": "float",
+      "priority": "uint",
+      "treat": "uint",
+      "location": "dict<str, Tuple<float, float, float>"
+    },
+    "return": {
+      "mission": 0,
       "duedate": "float",
       "priority": "uint",
       "treat": "uint",
@@ -62,7 +69,7 @@
     },
     "KF-21": {
       "name": "KF-21",
-      "description": "ÀüÅõ±â acc(lbf) spd(km/h) fuel(kg)",
+      "description": "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ acc(lbf) spd(km/h) fuel(kg)",
       "kind": 4,
       "distance": 2900,
       "speed": 2234.9,
@@ -72,7 +79,7 @@
     },
     "MQ-9": {
       "name": "Reaper",
-      "description": "MQ-9 Reaper spd(km/h) fuel(kg) ÀÛÀü°íµµ",
+      "description": "MQ-9 Reaper spd(km/h) fuel(kg) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",
       "kind": 4,
       "distance": 5926,
       "speed": 313,
@@ -91,21 +98,21 @@
     },
     "AIM-120-short": {
       "name": "AIM-120A/B",
-      "description": "¹Ì»çÀÏ",
+      "description": "ï¿½Ì»ï¿½ï¿½ï¿½",
       "target": 4,
       "weight": 157.8,
       "distance": 50.0
     },
     "AIM-120-middle": {
       "name": "AIM-120C",
-      "description": "¹Ì»çÀÏ",
+      "description": "ï¿½Ì»ï¿½ï¿½ï¿½",
       "target": 4,
       "weight": 161.5,
       "distance": 110.0
     },
     "AIM-120-long": {
       "name": "AIM-120D",
-      "description": "¹Ì»çÀÏ",
+      "description": "ï¿½Ì»ï¿½ï¿½ï¿½",
       "target": 4,
       "weight": 162.4,
       "distance": 160.0
