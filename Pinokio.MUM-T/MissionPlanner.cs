@@ -11,11 +11,7 @@ namespace Pinokio.MUM_T
     {
         public MissionPlanner(uint id, string mapName) : base(id, mapName)
         {
-
-        }
-        public void Initialize()
-        {
-
+            EvtCalendar.AddEvent(new SimTime(60), this, new SimPort)
         }
     }
 }

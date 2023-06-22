@@ -33,6 +33,8 @@ namespace Pinokio.MUM_T.Common
     internal class Unit
     {
         public int Id = -1;
+
+
         public int Kind = 0;    // 대상: 001(지상) 010(해상) 100(공중)
         public List<Weapon> Weapons = new();    // 무장
         public float? Distance;  // 전투행동반경
